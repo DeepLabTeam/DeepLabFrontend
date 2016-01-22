@@ -39,5 +39,5 @@ gulp.task('scripts', function() {
 gulp.task('default', ['serve'], function(){
 	gulp.watch("app/scss/*.scss", ['sass']);
 	gulp.watch("app/ts/**/*.ts", ['scripts']);
-    gulp.watch("app/*.html").on('change', browserSync.reload);
+    gulp.watch("public/*.html").on('change', browserSync.reload);
 });
