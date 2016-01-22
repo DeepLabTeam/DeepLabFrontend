@@ -25,3 +25,5 @@ That command should start the server and open a browser window for you.
 ###Cool things to note:
 
 I set up the gulpfile.js to watch for file changes, and browsersync will automatically refresh the browser window. I've integrated the SCSS css preprocessor and TypeScript compilation. Making a change to one of the TS files located in /app/ts will cause the browser to auto-update, likewise with CSS changes in the sass files at /app/scss/
+
+Try modifying some values in the script.ts file.

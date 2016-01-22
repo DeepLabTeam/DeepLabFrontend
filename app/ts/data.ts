@@ -1,5 +1,4 @@
-//From here: http://www.typescriptlang.org/Samples#D3
-///<reference path="d3.d.ts" />
+/* From here: http://www.typescriptlang.org/Samples#D3 */
 "use strict";
 
 interface IDataSeries {
@@ -157,7 +156,7 @@ module Chart {
         public chartWidth = 800;
 
         private getTextDataString(data) {
-            return data.pass ? 'pass' : 'fail';      
+            return data.pass ? 'pass' : 'fail';
         }
         
         public render(data: IDataSeries[]) {
